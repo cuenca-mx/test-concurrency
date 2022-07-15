@@ -1,4 +1,5 @@
 name: test
+concurrency: one_test_at_a_time
 
 on: push
 
