@@ -5,9 +5,9 @@ name: test
 #   group: one_test_at_a_time
 #   cancel-in-progress: true
 
-concurrency:
-  group: ${{ github.ref }}
-  cancel-in-progress: true
+# concurrency:
+#   group: ${{ github.ref }}
+#   cancel-in-progress: true
 
 on: push
 
