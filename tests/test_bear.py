@@ -1,4 +1,4 @@
 import bear
 
-def test_bear_sleep():
-    assert bear.sleep() == '. z Z Z Z Z'
+def test_sleep_like_a_bear():
+    assert bear.sleep() == '. z Z'
